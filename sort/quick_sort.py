@@ -9,7 +9,7 @@ def partition(list, low, high):
 
     list[i], list[high] = list[high] ,list[i]
 
-    return (i)
+    return i
 
 
 def quick_sort(list, low, high):
