@@ -17,7 +17,9 @@ def main():
     stack.printStack()
     
     stack.push(1)
+    stack.printStack()
     stack.push(2)
+    stack.printStack()
     stack.push(3)
     stack.printStack()
 
@@ -28,6 +30,7 @@ def main():
     stack.printStack()
 
     stack.pop()
+    stack.printStack()
     stack.pop()
     stack.printStack()
 
