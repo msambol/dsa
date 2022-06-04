@@ -47,3 +47,14 @@ None
 [4]
 []
 ```
+
+### Hash Table
+
+* [Video]()
+```
+❯ python hash_table.py
+{'a': 1, 'b': 9, 'c': 'nebraska', 'd': True}
+{'a': 1, 'b': 9, 'c': 'nebraska', 'd': True, 'e': False}
+{'b': 9, 'c': 'nebraska', 'd': True, 'e': False}
+nebraska
+```

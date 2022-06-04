@@ -33,7 +33,6 @@ def main():
     queue.printQueue()
     queue.dequeue()
     queue.printQueue()
-
     queue.dequeue()
     queue.printQueue()
 

@@ -33,7 +33,6 @@ def main():
     stack.printStack()
     stack.pop()
     stack.printStack()
-
     stack.pop()
     stack.printStack()
 
