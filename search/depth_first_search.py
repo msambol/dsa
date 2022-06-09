@@ -1,5 +1,3 @@
-from collections import deque
-
 graph = {
   'A' : ['B','G'],
   'B' : ['C', 'D', 'E'],
@@ -14,7 +12,7 @@ graph = {
 
 def dfs(graph, node):
     visited = []
-    stack = deque()
+    stack = []
 
     visited.append(node)
     stack.append(node) 

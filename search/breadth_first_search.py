@@ -1,3 +1,5 @@
+from collections import deque
+
 graph = {
   'A' : ['B','C'],
   'B' : ['D', 'E', 'F'],
@@ -12,13 +14,13 @@ graph = {
 
 def bfs(graph, node):
     visited = []
-    queue = []
+    queue = deque()
 
     visited.append(node)
     queue.append(node)
 
     while queue:
-        s = queue.pop(0)
+        s = queue.popleft()
         print(s, end = " ")
 
         for n in graph[s]:

@@ -37,15 +37,15 @@ None
 * [Video]()
 ```
 ❯ python queue.py
-[]
-[1]
-[1, 2]
-[1, 2, 3]
-[2, 3]
-[2, 3, 4]
-[3, 4]
-[4]
-[]
+deque([])
+deque([1])
+deque([1, 2])
+deque([1, 2, 3])
+deque([2, 3])
+deque([2, 3, 4])
+deque([3, 4])
+deque([4])
+deque([])
 ```
 
 ### Hash Table
