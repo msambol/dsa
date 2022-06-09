@@ -34,7 +34,7 @@ None
 
 ### Queue
 
-* [Video]()
+* [Video](https://youtu.be/D6gu-_tmEpQ)
 ```
 ❯ python queue.py
 deque([])
