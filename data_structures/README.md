@@ -18,7 +18,7 @@ None
 
 ### Stack
 
-* [Video]()
+* [Video](https://youtu.be/KcT3aVgrrpU)
 ```
 ❯ python stack.py
 []
