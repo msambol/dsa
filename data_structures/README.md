@@ -18,7 +18,7 @@ None
 
 ### Stack
 
-* [Video]()
+* [Video](https://youtu.be/KcT3aVgrrpU)
 ```
 ❯ python stack.py
 []
@@ -34,7 +34,7 @@ None
 
 ### Queue
 
-* [Video]()
+* [Video](https://youtu.be/D6gu-_tmEpQ)
 ```
 ❯ python queue.py
 deque([])
