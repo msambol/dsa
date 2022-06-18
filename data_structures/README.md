@@ -57,4 +57,5 @@ deque([])
 {'a': 1, 'b': 9, 'c': 'nebraska', 'd': True, 'e': False}
 {'b': 9, 'c': 'nebraska', 'd': True, 'e': False}
 nebraska
+hash of 50 with table size 13 --> 11
 ```
