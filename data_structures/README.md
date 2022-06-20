@@ -50,7 +50,7 @@ deque([])
 
 ### Hash Table
 
-* [Video]()
+* [Video](https://youtu.be/knV86FlSXJ8)
 ```
 ❯ python hash_table.py
 {'a': 1, 'b': 9, 'c': 'nebraska', 'd': True}
