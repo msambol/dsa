@@ -59,3 +59,11 @@ deque([])
 nebraska
 hash of 50 with table size 13 --> 11
 ```
+
+### Heap
+
+* Videos: [Introduction]() | [Methods]()
+```
+❯ python heap.py
+Heap: [89, 12, 65, 9, 5, 25, 28, 4, 6, 3, 0, 22, 20, 1, 10]
+```
