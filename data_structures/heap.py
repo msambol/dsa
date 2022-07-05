@@ -9,8 +9,8 @@ def parent(i):
 
 
 def max_heapify(a, heap_size, i):
-    l = left(i)
-    r = right(i)
+    l = 2*i
+    r = 2*i + 1
 
     largest = i 
 
