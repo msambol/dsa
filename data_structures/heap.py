@@ -29,7 +29,7 @@ def max_heapify(a, i):
 
 
 def build_max_heap(a):
-    for i in range(floor(len(a)/2), 0, -1):
+    for i in range(5, 0, -1):
         max_heapify(a, i)
 
 
