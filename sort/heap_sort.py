@@ -41,7 +41,7 @@ def heap_sort(a):
         a[i], a[1] = a[1], a[i]
 
         # after the swap the last element is now sorted, but the new root may break the max-heap condition
-        # fix it by calling max-heapify
+        # fix it by calling max-heapify with a smaller heap size (sorted elements are out of the picture)
         max_heapify(a, i, 1)
 
 
