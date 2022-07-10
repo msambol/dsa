@@ -4,4 +4,5 @@ Please ask questions in [Issues](https://github.com/msambol/youtube/issues).
 
 ### Useful pointers 
 
+* [CS Tutorials](https://www.youtube.com/playlist?list=PL9xmBV_5YoZPKwb4XPB1sG7S6kNpN9JJo) – all of my computer science tutorials in one playlist
 * [Big-O Cheat Sheet](https://www.bigocheatsheet.com/) – time & space complexities
