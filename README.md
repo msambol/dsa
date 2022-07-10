@@ -17,3 +17,4 @@ Please ask questions in [Issues](https://github.com/msambol/youtube/issues).
 
 ### Useful pointers
 * [Big-O Cheat Sheet](https://www.bigocheatsheet.com/) – time & space complexities
+* [Python Time Complexities](https://wiki.python.org/moin/TimeComplexity) – time complexities of operations in Python
