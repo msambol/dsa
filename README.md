@@ -4,7 +4,7 @@ Please ask questions in [Issues](https://github.com/msambol/youtube/issues).
 
 ### Playlists 
 
-* [CS Tutorials](https://www.youtube.com/playlist?list=PL9xmBV_5YoZPKwb4XPB1sG7S6kNpN9JJo) – all of my tutorials in one playlist
+* [CS Tutorials](https://www.youtube.com/playlist?list=PL9xmBV_5YoZPKwb4XPB1sG7S6kNpN9JJo) – all of my computer science tutorials in one playlist
 * [Data Structures](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO2D89q42-y8voxIJKpB4oR)
 * [Search Algos](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMIAJn8M6At9CjZ0Wu0B31d)
 * [Sort Algos](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl)
