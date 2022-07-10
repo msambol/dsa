@@ -1,6 +1,6 @@
 ## Data Structures
 
-* [Data structures playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO2D89q42-y8voxIJKpB4oR)
+[Data structures playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO2D89q42-y8voxIJKpB4oR)
 
 ### Linked List
 
