@@ -16,6 +16,6 @@ Please ask questions in [Issues](https://github.com/msambol/youtube/issues).
 * [Shortest Path Algos](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO-Y-H3xIC9DGSfVYJng9Yw)
 
 ### Useful pointers
-* [Introduction to Algorithms](Introduction to Algorithms, fourth edition https://a.co/d/7oRsCT2) – my main source
+* [Introduction to Algorithms](https://a.co/d/7oRsCT2) – my main source
 * [Big-O Cheat Sheet](https://www.bigocheatsheet.com/) – time & space complexities
 * [Python Time Complexities](https://wiki.python.org/moin/TimeComplexity) – time complexities of operations in Python
