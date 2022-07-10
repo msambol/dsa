@@ -1,5 +1,7 @@
 ## Search
 
+[Search playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMIAJn8M6At9CjZ0Wu0B31d)
+
 ### Binary Search
 
 * [Video](https://youtu.be/B25Gu5r0xUg)
