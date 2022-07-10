@@ -1,6 +1,6 @@
 ## Search
 
-[Search playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMIAJn8M6At9CjZ0Wu0B31d)
+[Search algos playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMIAJn8M6At9CjZ0Wu0B31d)
 
 ### Binary Search
 
