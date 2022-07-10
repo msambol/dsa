@@ -1,5 +1,7 @@
 ## Sort
 
+[Sort algos playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl)
+
 ### Merge Sort 
 
 * [Video](https://youtu.be/4VqmGXwpLqc)
