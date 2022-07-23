@@ -10,6 +10,7 @@ Please ask questions in [Issues](https://github.com/msambol/youtube/issues).
 * [Sort Algos](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOZSbGAXAPIq1BeUf4j20pl)
 * [Big-O Notation](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
 * [Red-Black Trees](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin)
+* [B-Trees](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz)
 * [Minimum Spanning Trees](https://www.youtube.com/playlist?list=PL9xmBV_5YoZObEi3Hf6lmyW-CBfs7nkOV)
 * [Tree Traversal Algos](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
 * [Maximum Flow Algos](https://www.youtube.com/playlist?list=PL9xmBV_5YoZPxifnyXjQVU1bhU4b4_Ts2)
