@@ -10,32 +10,32 @@ class Queue:
     def dequeue(self):
         self.data.popleft()
 
-    def printQueue(self):
+    def print_queue(self):
         print(self.data)
 
 
 def main():
     queue = Queue()
-    queue.printQueue()
+    queue.print_queue()
     
     queue.enqueue(1)
-    queue.printQueue()
+    queue.print_queue()
     queue.enqueue(2)
-    queue.printQueue()
+    queue.print_queue()
     queue.enqueue(3)
-    queue.printQueue()
+    queue.print_queue()
 
     queue.dequeue()
-    queue.printQueue()
+    queue.print_queue()
 
     queue.enqueue(4)
-    queue.printQueue()
+    queue.print_queue()
 
     queue.dequeue()
-    queue.printQueue()
+    queue.print_queue()
     queue.dequeue()
-    queue.printQueue()
+    queue.print_queue()
     queue.dequeue()
-    queue.printQueue()
+    queue.print_queue()
 
 main()

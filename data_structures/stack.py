@@ -8,32 +8,32 @@ class Stack:
     def pop(self):
         self.data.pop()
 
-    def printStack(self):
+    def print_stack(self):
         print(self.data)
 
 
 def main():
     stack = Stack()
-    stack.printStack()
+    stack.print_stack()
     
     stack.push(1)
-    stack.printStack()
+    stack.print_stack()
     stack.push(2)
-    stack.printStack()
+    stack.print_stack()
     stack.push(3)
-    stack.printStack()
+    stack.print_stack()
 
     stack.pop()
-    stack.printStack()
+    stack.print_stack()
 
     stack.push(4)
-    stack.printStack()
+    stack.print_stack()
 
     stack.pop()
-    stack.printStack()
+    stack.print_stack()
     stack.pop()
-    stack.printStack()
+    stack.print_stack()
     stack.pop()
-    stack.printStack()
+    stack.print_stack()
 
 main()

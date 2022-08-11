@@ -40,7 +40,7 @@ class LinkedList:
         if node.next is not None:
             node.next.prev = node.prev
 
-    def printList(list):
+    def print_list(list):
         current = list.head
         while current:
             print(f'{current.data} -->', end=' ')
@@ -51,26 +51,26 @@ class LinkedList:
 
 def main():
     ll = LinkedList()
-    ll.printList()
+    ll.print_list()
 
     ll.insert(Node(5))
-    ll.printList()
+    ll.print_list()
 
     ll.insert(Node(4))
     ll.insert(Node(3))
     ll.insert(Node(2))
     ll.insert(Node(1))
-    ll.printList()
+    ll.print_list()
 
     node_to_delete = ll.search(4)
     print(f'Deleting {node_to_delete}..')
     ll.delete(node_to_delete)
-    ll.printList()
+    ll.print_list()
 
     node_to_delete = ll.search(2)
     print(f'Deleting {node_to_delete}..')
     ll.delete(node_to_delete)
-    ll.printList()
+    ll.print_list()
 
     print(ll.search(3))
     print(ll.search(99))
