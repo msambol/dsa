@@ -8,7 +8,9 @@ def binarySearch(array, target):
     right = len(array)
 
     while (left + 1 < right):
-        mid = math.ceil((right + left) // 2)
+        # The video has two forward slashes which is floor division. 
+        # It only needs one, as I'm rounding up with ceil after division occurs.
+        mid = math.ceil((right + left) / 2)
 
         if array[mid] == target:
             return mid
