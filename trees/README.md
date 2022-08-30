@@ -3,6 +3,7 @@
 ### B-Trees
 
 * [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz)
+* Videos: [Introduction](https://youtu.be/FgWbADOG44s) | [Properties](https://youtu.be/fAfuZiFDpRo) | [Search](https://youtu.be/jLEhJqNVauc) | [Insertions](https://youtu.be/tT2DT9Z4H-0) | [Deletions]()
 * h/t **Programiz** – [Insertion into a B-tree](https://www.programiz.com/dsa/insertion-into-a-b-tree) | [Deletion from a B-tree](https://www.programiz.com/dsa/deletion-from-a-b-tree)
 
 ```
