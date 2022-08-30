@@ -20,3 +20,4 @@ Please ask questions in [Issues](https://github.com/msambol/youtube/issues).
 * [Introduction to Algorithms](https://a.co/d/7oRsCT2) – my main source
 * [Big-O Cheat Sheet](https://www.bigocheatsheet.com/) – time & space complexities
 * [Python Time Complexities](https://wiki.python.org/moin/TimeComplexity) – time complexities of operations in Python
+* [michaelsambol.com](https://michaelsambol.com) – my personal website
