@@ -82,7 +82,6 @@ class BTree():
                     i += 1
             self.insert_non_full(x.children[i], k)
 
-
     def delete(self, x, k):
         t = self.t
         i = 0
