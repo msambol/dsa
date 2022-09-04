@@ -16,7 +16,7 @@ Index of 100: -1
 Index of 1: -1
 Index of 1: 0
 ```
-* A little more efficient:
+* A little more efficient (not the exact code in the video):
 ```
 ❯ python binary_search_v2.py
 Index of 1: 0
