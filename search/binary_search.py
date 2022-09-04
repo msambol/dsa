@@ -1,6 +1,6 @@
 import math
 
-def binarySearch(array, target):
+def binary_search(array, target):
     if not len(array):
         return -1
 
@@ -27,19 +27,19 @@ def binarySearch(array, target):
 
 def main():
     array = [1,4,5,7,9,12,15,18,19,22,23,25,29,30,33,35,40,41,50]
-    print(f'Index of 1: {binarySearch(array, 1)}')
-    print(f'Index of 9: {binarySearch(array, 9)}')
-    print(f'Index of 22: {binarySearch(array, 22)}')
-    print(f'Index of 30: {binarySearch(array, 30)}')
-    print(f'Index of 50: {binarySearch(array, 50)}')
+    print(f'Index of 1: {binary_search(array, 1)}')
+    print(f'Index of 9: {binary_search(array, 9)}')
+    print(f'Index of 22: {binary_search(array, 22)}')
+    print(f'Index of 30: {binary_search(array, 30)}')
+    print(f'Index of 50: {binary_search(array, 50)}')
 
     array = []
-    print(f'Index of 100: {binarySearch(array, 100)}')
+    print(f'Index of 100: {binary_search(array, 100)}')
 
     array = [1]
-    print(f'Index of 1: {binarySearch(array, 50)}')
+    print(f'Index of 1: {binary_search(array, 50)}')
 
     array = [8, 9]
-    print(f'Index of 1: {binarySearch(array, 8)}')
+    print(f'Index of 1: {binary_search(array, 8)}')
 
 main()
