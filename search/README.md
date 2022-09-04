@@ -15,10 +15,8 @@ Index of 50: 18
 Index of 100: -1
 Index of 1: -1
 Index of 1: 0
-```
-* A little more efficient (not the exact code in the video):
-```
-❯ python binary_search_v2.py
+
+Running again, with v2..
 Index of 1: 0
 Index of 9: 4
 Index of 22: 9
