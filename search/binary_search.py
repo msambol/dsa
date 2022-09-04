@@ -15,7 +15,7 @@ def binarySearch(array, target):
         if array[mid] == target:
             return mid
         elif array[mid] < target: 
-            left = mid 
+            left = mid
         else:
             right = mid
 
