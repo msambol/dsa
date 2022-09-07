@@ -8,8 +8,8 @@
 
 ### Bellman-Ford
 
-* Videos: [Theory](https://youtu.be/9PHkk0UavIM) | [Step by step example](https://youtu.be/obWXjtg0L64)
+* Videos: [Theory](https://youtu.be/9PHkk0UavIM) | [Example](https://youtu.be/obWXjtg0L64)
 
-### Ford-Fulkeson
+### Floyd-Warshall
 
-* [Video](https://youtu.be/Tl90tNtKvxs)
+* [Video](https://youtu.be/4OQeCuLYj-4)
