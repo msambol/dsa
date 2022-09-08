@@ -5,7 +5,7 @@
 ### Prim's
 
 * [Video](https://youtu.be/cplfcGZmX7I)
-* h/t **Aladdin Persson** – [GitHub](https://github.com/aladdinpersson/Algorithms-Collection-Python/blob/master/Algorithms/graphtheory/prims/prim_heap.py)
+* h/t **Aladdin Persson** – [GitHub](https://github.com/aladdinpersson/Algorithms-Collection-Python/blob/master/Algorithms/graphtheory/prims/prim_heap.py) | [YouTube](https://www.youtube.com/c/AladdinPersson)
 
 ```
 ❯ python prims.py
@@ -16,8 +16,10 @@ Total cost: 24
 ### Kruskal's
 
 * [Video](https://youtu.be/71UQH7Pr9kU)
+* h/t **Aladdin Persson** – [GitHub](https://github.com/aladdinpersson/Algorithms-Collection-Python/blob/master/Algorithms/graphtheory/kruskal/kruskal_unionfind.py) | [YouTube](https://www.youtube.com/c/AladdinPersson)
 
 ```
 ❯ python kruskals.py
-
+Minimum spanning tree: [('C', 'E', 1), ('A', 'B', 2), ('A', 'C', 3), ('A', 'D', 3), ('D', 'F', 7), ('F', 'G', 9)]
+Total cost: 25
 ```
