@@ -6,6 +6,11 @@
 
 * [Video](https://youtu.be/_lHSawdgXpI)
 
+```
+❯ python dijkstras.py
+Shortest path from A: {'A': 0, 'B': 3, 'C': 2, 'D': 5, 'E': 6}
+```
+
 ### Bellman-Ford
 
 * Videos: [Theory](https://youtu.be/9PHkk0UavIM) | [Example](https://youtu.be/obWXjtg0L64)
