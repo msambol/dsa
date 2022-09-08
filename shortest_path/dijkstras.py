@@ -1,3 +1,5 @@
+infinity = float("inf")
+
 def make_graph():
     # same graph in YouTube video: https://youtu.be/_lHSawdgXpI
     # tuple = (cost, to_node)
@@ -10,10 +12,40 @@ def make_graph():
     }
 
 
+def dijkstras_heap(G, start='A'):
+    shortest_paths = {} 
+    visited = {} 
+    history = {} 
+    heap = [] 
+    path = []
+
+    for node in list(G.keys()):
+        shortest_paths[node] = infinity
+        visited[node] = False
+
+    shortest_paths[start] = 0 
+    visited[start] = True
+
+    heapq.heappush(heap, (0, start))
+
+    while heap:
+        (distance, node) = heapq.heappop(heap)
+        visited[node] = True
+
+        for edge in G[node]:
+            cost = edge[0]
+            to_node = edge[1]
+
+            if (not visited[to_node]) and (distance + cost < shortest_paths[to_node]):
+                shortest_paths[to_node] = distance + cost
+                heapq.heappush(heap, (shortest_paths[to_node], to_node))
+
+    return shortest_paths
+
+
 def dijkstras(G, start='A'):
     shortest_paths = {}
     unvisited = list(G.keys())
-    infinity = float("inf")
 
     for node in unvisited:
         shortest_paths[node] = infinity
@@ -44,8 +76,11 @@ def dijkstras(G, start='A'):
 def main():
     G = make_graph()
     start = 'A'
+
     shortest_paths = dijkstras(G, start)
+    shortest_paths_using_heap = dijkstras(G, start)
 
     print(f'Shortest path from {start}: {shortest_paths}')
+    print(f'Shortest path from {start} using heap: {shortest_paths}')
 
 main()
