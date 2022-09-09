@@ -1,7 +1,7 @@
 import heapq
 
 def make_graph():
-    # same graph in YouTube video: https://youtu.be/cplfcGZmX7I
+    # identical graph from the YouTube video: https://youtu.be/cplfcGZmX7I
     # tuple = (cost, n1, n2)
     return {
         'A': [(3, 'D', 'A'), (3, 'C', 'A'), (2, 'B', 'A')],

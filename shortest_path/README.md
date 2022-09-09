@@ -20,3 +20,13 @@ Shortest path from A using heap: {'A': 0, 'B': 3, 'C': 2, 'D': 5, 'E': 6}
 ### Floyd-Warshall
 
 * [Video](https://youtu.be/4OQeCuLYj-4)
+
+```
+❯ python floyd_warshall.py
+Shortest path matrix:
+
+[0, -1, -2, 0]
+[4, 0, 2, 4]
+[5, 1, 0, 2]
+[3, -1, 1, 0]
+```
