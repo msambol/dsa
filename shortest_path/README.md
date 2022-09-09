@@ -17,7 +17,7 @@ Shortest path from A using heap: {'A': 0, 'B': 3, 'C': 2, 'D': 5, 'E': 6}
 ### Bellman-Ford
 
 * Videos: [Theory](https://youtu.be/9PHkk0UavIM) | [Example](https://youtu.be/obWXjtg0L64)
-* Note: shortest path from one node to all nodes, negative edges allowed
+* Note: shortest path from one node to all nodes, negative edges allowed (but not negative cycles)
 
 ```
 ❯ python bellman_ford.py
@@ -27,7 +27,7 @@ Shortest path from S: {'S': 0, 'A': 5, 'B': 5, 'C': 7, 'D': 9, 'E': 8}
 ### Floyd-Warshall
 
 * [Video](https://youtu.be/4OQeCuLYj-4)
-* Note: shortest path between all pairs of vertices, negative edges allowed
+* Note: shortest path between all pairs of vertices, negative edges allowed (but not negative cycles)
 
 ```
 ❯ python floyd_warshall.py
