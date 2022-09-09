@@ -21,4 +21,5 @@ Please ask questions in [Issues](https://github.com/msambol/youtube/issues).
 * [Algorithms](https://www.amazon.com/Algorithms-Sanjoy-Dasgupta/dp/0073523402) – another great source
 * [Big-O Cheat Sheet](https://www.bigocheatsheet.com/) – time & space complexities
 * [Python Time Complexities](https://wiki.python.org/moin/TimeComplexity) – time complexities of operations in Python
+* [Coding Interview University](https://github.com/jwasham/coding-interview-university) – awesome collection of CS material
 * [michaelsambol.com](https://michaelsambol.com) – my personal website
