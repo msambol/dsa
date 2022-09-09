@@ -1,7 +1,7 @@
 from unionfind import unionfind
 
 def make_graph():
-    # identical graph from the YouTube video: https://youtu.be/71UQH7Pr9kU
+    # identical graph as the YouTube video: https://youtu.be/71UQH7Pr9kU
     # tuple = (cost, n1, n2)
     return {
         'A': [(3, 'D', 'A'), (3, 'C', 'A'), (2, 'B', 'A')],

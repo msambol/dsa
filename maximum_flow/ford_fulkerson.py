@@ -3,7 +3,7 @@ from collections import deque
 infinity = float("inf")
 
 def make_graph():
-    # identical graph from the YouTube video: https://youtu.be/Tl90tNtKvxs
+    # identical graph as the YouTube video: https://youtu.be/Tl90tNtKvxs
     return [
             [0, 10, 0, 10, 0, 0],
             [0, 0, 4, 2, 8, 0],
