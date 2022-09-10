@@ -5,6 +5,34 @@
 * [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin)
 * Videos: [Intro](https://youtu.be/qvZGUFHWChY) | [Rotations](https://youtu.be/95s3ndZRGbk) | [Insertions (strategy)](https://youtu.be/5IBxA-bZZH8) | [Insertions (examples)](https://youtu.be/A3JZinzkMpk)
 
+```
+❯ python red_black_tree.py
+
+-- ROTATIONS VIDEO --
+5 2 10 8 12 6 9 
+
+-- After left rotation --
+10 5 12 2 8 6 9 
+
+-- After right rotation --
+5 2 10 8 12 6 9 
+
+-- INSERTIONS VIDEO, after case 0 --
+15(b) 
+
+-- Insert 5 --
+15(b) 5(r) 
+
+-- Insert 1 (case 3) --
+5(b) 1(r) 15(r) 
+
+-- Move to larger tree --
+8(b) 5(b) 15(r) 12(b) 19(b) 9(r) 13(r) 23(r) 
+
+-- Insert 10 (case 1, 2, and 3) --
+12(b) 8(r) 15(r) 5(b) 9(b) 13(b) 19(b) 10(r) 23(r) 
+```
+
 ### B-trees
 
 * [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz)

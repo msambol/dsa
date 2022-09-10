@@ -7,7 +7,6 @@ def right(i):
 def parent(i):
     return i//2
 
-
 def max_heapify(a, heap_size, i):
     l = left(i)
     r = right(i)
