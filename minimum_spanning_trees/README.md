@@ -21,6 +21,7 @@ Total cost: 24
 * h/t **Aladdin Persson** – [GitHub](https://github.com/aladdinpersson/Algorithms-Collection-Python/blob/master/Algorithms/graphtheory/kruskal/kruskal_unionfind.py) | [YouTube](https://www.youtube.com/c/AladdinPersson)
 
 ```
+❯ pip install unionfind
 ❯ python kruskals.py
 Minimum spanning tree: [('C', 'E', 1), ('A', 'B', 2), ('A', 'C', 3), ('A', 'D', 3), ('D', 'F', 7), ('F', 'G', 9)]
 Total cost: 25

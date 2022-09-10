@@ -19,8 +19,8 @@ class Node:
         return '(r)'
 
 
-class RedBlackTree():
-    def __init__(self, root):
+class RedBlackTree:
+    def __init__(self, root=None):
         self.root = root
 
     # O(1)
@@ -123,7 +123,7 @@ class RedBlackTree():
 
         self.root.color = BLACK
 
-    # simple level ordel tree traversal
+    # simple level order tree traversal
     def print_tree(self, print_color=False):
         queue = deque()
         queue.append(self.root)
@@ -140,6 +140,32 @@ class RedBlackTree():
                 queue.append(node.left)
             if node.right:
                 queue.append(node.right)
+
+
+def make_larger_tree():
+    eight = Node(8)
+    RB = RedBlackTree()
+    RB.insert(eight)
+
+    five = Node(5, eight, BLACK)
+    fifteen = Node(15, eight, RED)
+    eight.left = five 
+    eight.right = fifteen 
+
+    twelve = Node(12, fifteen, BLACK)
+    nineteen = Node(19, fifteen, BLACK)
+    fifteen.left = twelve 
+    fifteen.right = nineteen
+
+    nine = Node(9, twelve, RED)
+    thirteen = Node(13, twelve, RED)
+    twelve.left = nine
+    twelve.right = thirteen
+
+    twentythree = Node(23, nineteen, RED)
+    nineteen.right = twentythree
+
+    return RB
 
 
 # ignoring color, just demonstrating rotation
@@ -174,34 +200,8 @@ def rotations_video():
     RB.print_tree()
 
 
-def make_larger_tree():
-    eight = Node(8)
-    RB = RedBlackTree(None)
-    RB.insert(eight)
-
-    five = Node(5, eight, BLACK)
-    fifteen = Node(15, eight, RED)
-    eight.left = five 
-    eight.right = fifteen 
-
-    twelve = Node(12, fifteen, BLACK)
-    nineteen = Node(19, fifteen, BLACK)
-    fifteen.left = twelve 
-    fifteen.right = nineteen
-
-    nine = Node(9, twelve, RED)
-    thirteen = Node(13, twelve, RED)
-    twelve.left = nine
-    twelve.right = thirteen
-
-    twentythree = Node(23, nineteen, RED)
-    nineteen.right = twentythree
-
-    return RB
-
-
 def insertions_video():
-    RB = RedBlackTree(None)
+    RB = RedBlackTree()
 
     print('\n\n-- INSERTIONS VIDEO, after case 0 --')
     # case 0

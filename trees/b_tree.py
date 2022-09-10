@@ -5,7 +5,7 @@ class Node:
         self.leaf = leaf
 
 
-class BTree():
+class BTree:
     def __init__(self, t):
         self.root = Node(True)
         self.t = t
