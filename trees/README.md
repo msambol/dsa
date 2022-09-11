@@ -31,6 +31,21 @@
 
 -- Insert 10 (case 1, 2, and 3) --
 12(b) 8(r) 15(r) 5(b) 9(b) 13(b) 19(b) 10(r) 23(r) 
+
+-- DELETIONS video --
+12(b) 8(r) 15(r) 5(b) 9(b) 13(b) 19(b) 10(r) 23(r) 
+
+-- Delete 19 (case 1) --
+12(b) 8(r) 15(r) 5(b) 9(b) 13(b) 23(b) 10(r) 
+
+-- Insert 1 --
+12(b) 8(r) 15(r) 5(b) 9(b) 13(b) 23(b) 1(r) 10(r) 
+
+-- Delete 5 (case 2) --
+12(b) 8(r) 15(r) 1(b) 9(b) 13(b) 23(b) 10(r) 
+
+-- Delete 12 (case 3) --
+13(b) 8(r) 15(b) 1(b) 9(b) 23(r) 10(r) 
 ```
 
 ### B-trees
