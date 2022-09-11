@@ -238,6 +238,7 @@ class RedBlackTree:
             x = x.left
         return x
 
+    # O(h) = O(logn) for RB trees
     def search(self, k):
         x = self.root
         while x != self.NIL and k != x.key:
