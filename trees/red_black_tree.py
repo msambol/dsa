@@ -204,7 +204,6 @@ def insertions_video():
     RB = RedBlackTree()
 
     print('\n\n-- INSERTIONS VIDEO, after case 0 --')
-    # case 0
     fifteen = Node(15)
     RB.insert(fifteen)
     RB.print_tree(True)
@@ -215,7 +214,6 @@ def insertions_video():
     RB.print_tree(True)
 
     print('\n\n-- Insert 1 (case 3) --')
-    # case 3
     one = Node(1)
     RB.insert(one)
     RB.print_tree(True)
@@ -225,7 +223,6 @@ def insertions_video():
     RB.print_tree(True)
 
     print('\n\n-- Insert 10 (case 1, 2, and 3) --')
-    # case 1
     ten = Node(10)
     RB.insert(ten)
     RB.print_tree(True)
