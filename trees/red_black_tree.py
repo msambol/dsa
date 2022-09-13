@@ -172,24 +172,24 @@ class RedBlackTree:
         while x != self.root and x.color == BLACK:
             if x == x.p.left:
                 w = x.p.right
-                # case 1
+                # type 1
                 if w.color == RED:
                     w.color = BLACK
                     x.p.color = RED
                     self.left_rotate(x.p)
                     w = x.p.right
-                # case 2
+                # type 2
                 if w.left.color == BLACK and w.right.color == BLACK:
                     w.color = RED 
                     x = x.p 
                 else:
-                    # case 3
+                    # type 3
                     if w.right.color == BLACK:
                         w.left.color = BLACK
                         w.color = RED
                         self.right_rotate(w)
                         w = x.p.right
-                    # case 4
+                    # type 4
                     w.color = x.p.color 
                     x.p.color = BLACK 
                     w.right.color = BLACK 
@@ -197,24 +197,24 @@ class RedBlackTree:
                     x = self.root
             else:
                 w = x.p.left
-                # case 1
+                # type 1
                 if w.color == RED:
                     w.color = BLACK
                     x.p.color = RED
                     self.right_rotate(x.p)
                     w = x.p.left
-                # case 2
+                # type 2
                 if w.right.color == BLACK and w.left.color == BLACK:
                     w.color = RED 
                     x = x.p 
                 else:
-                    # case 3
+                    # type 3
                     if w.left.color == BLACK:
                         w.right.color = BLACK
                         w.color = RED
                         self.left_rotate(w)
                         w = x.p.left
-                    # case 4
+                    # type 4
                     w.color = x.p.color 
                     x.p.color = BLACK 
                     w.left.color = BLACK 
