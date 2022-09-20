@@ -126,7 +126,7 @@ def main():
 
     print_tree()
 
-    print('--- LEVEL ORDER iterative ---')
+    print('--- LEVEL-ORDER iterative ---')
     level_order_iterative(root)
 
     print('\n\n--- PRE-ORDER iterative ---')

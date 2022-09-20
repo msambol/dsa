@@ -248,7 +248,7 @@ class RedBlackTree:
                 x = x.right
         return x
 
-    # simple level order tree traversal
+    # simple level-order tree traversal
     def print_tree(self, print_color=False):
         queue = deque()
         queue.append(self.root)
