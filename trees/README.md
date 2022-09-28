@@ -3,7 +3,7 @@
 ### Red-black trees
 
 * [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin)
-* Videos: [Intro](https://youtu.be/qvZGUFHWChY) | [Rotations](https://youtu.be/95s3ndZRGbk) | [Insertions (strategy)](https://youtu.be/5IBxA-bZZH8) | [Insertions (examples)](https://youtu.be/A3JZinzkMpk)
+* Videos: [Intro](https://youtu.be/qvZGUFHWChY) | [Rotations](https://youtu.be/95s3ndZRGbk) | [Insertions (strategy)](https://youtu.be/5IBxA-bZZH8) | [Insertions (examples)](https://youtu.be/A3JZinzkMpk) | [Deletions](https://youtu.be/lU99loSvD8s) | [Delete Fixes](https://youtu.be/iw8N1_keEWA)
 
 ```
 ❯ python red_black_tree.py
