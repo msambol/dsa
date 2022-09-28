@@ -56,7 +56,8 @@
 
 ### Heap Sort 
 
-* [Video](https://youtu.be/2DmK_H7IdTo)
+* [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
+* Videos: [Intro](https://youtu.be/0wPlzMU-k00) | [Methods](https://youtu.be/pAU21g-jBiE) | [Sort](https://youtu.be/2DmK_H7IdTo)
 
 ```
 ❯ python heap_sort.py

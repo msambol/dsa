@@ -64,8 +64,16 @@ hash of 50 with table size 13 --> 11
 
 ### Heap
 
-* Videos: [Intro](https://youtu.be/0wPlzMU-k00) | [Methods](https://youtu.be/pAU21g-jBiE)
+* [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
+* Videos: [Intro](https://youtu.be/0wPlzMU-k00) | [Methods](https://youtu.be/pAU21g-jBiE) | [Sort](https://youtu.be/2DmK_H7IdTo)
+
 ```
 ❯ python heap.py
 Heap: [89, 12, 65, 9, 5, 25, 28, 4, 6, 3, 0, 22, 20, 1, 10]
 ```
+
+#### Fibonacci Heap
+
+* [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNkwWDXcSiZjMgacw2P0U2j)
+* Videos: [Intro](https://youtu.be/oFyMUQKghiM)
+* h/t **Daniel Borowski** – [GitHub](https://github.com/danielborowski/fibonacci-heap-python) | [LinkedIn](https://www.linkedin.com/in/daniel-borowski/)

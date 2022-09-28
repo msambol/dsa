@@ -20,7 +20,7 @@ Shortest path from A using heap: {'A': 0, 'B': 3, 'C': 2, 'D': 5, 'E': 6}
 * **Note:** shortest path from one node to all nodes, negative edges allowed (but not negative cycles)
 
 ```
-❯ python bellman_ford.py 
+❯ python bellman_ford.py
 Shortest path from S: {'S': 0, 'A': 5, 'B': 5, 'C': 7, 'D': 9, 'E': 8}
 Shortest path from S: INVALID - negative cycle detected
 ```
