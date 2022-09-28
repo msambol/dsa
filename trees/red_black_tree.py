@@ -62,7 +62,7 @@ class RedBlackTree:
         elif x == x.p.right:
             x.p.right = y 
         else:
-            x.p.right = y 
+            x.p.left = y 
 
         y.right = x 
         x.p = y
