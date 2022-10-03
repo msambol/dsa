@@ -77,3 +77,67 @@ Heap: [89, 12, 65, 9, 5, 25, 28, 4, 6, 3, 0, 22, 20, 1, 10]
 * [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNkwWDXcSiZjMgacw2P0U2j)
 * Videos: [Intro](https://youtu.be/0vsX3ZQFREM)
 * h/t **Daniel Borowski** – [GitHub](https://github.com/danielborowski/fibonacci-heap-python) | [LinkedIn](https://www.linkedin.com/in/daniel-borowski/)
+
+```
+❯ python fibonacci_heap.py
+--------------------
+-- Fibonacci Heap --
+--------------------
+Total nodes: 4
+Minimum: 2
+Root list: [5, 2, 16, 9]
+--------------------
+
+--------------------
+-- Fibonacci Heap --
+--------------------
+Total nodes: 14
+Minimum: 2
+Root list: [5, 2, 16, 9, 20]
+Children of 2: [12, 38, 19]
+Children of 16: [29]
+Children of 9: [25, 59]
+Children of 12: [31]
+Children of 19: [22]
+Children of 25: [32]
+--------------------
+
+FH1 before union:
+--------------------
+-- Fibonacci Heap --
+--------------------
+Total nodes: 7
+Minimum: 2
+Root list: [5, 2]
+Children of 2: [12, 38, 19]
+Children of 12: [31]
+Children of 19: [22]
+--------------------
+
+FH2 before union:
+--------------------
+-- Fibonacci Heap --
+--------------------
+Total nodes: 6
+Minimum: 9
+Root list: [16, 9]
+Children of 16: [29]
+Children of 9: [25, 59]
+Children of 25: [32]
+--------------------
+
+Union of FH1 and FH2:
+--------------------
+-- Fibonacci Heap --
+--------------------
+Total nodes: 13
+Minimum: 2
+Root list: [5, 2, 16, 9]
+Children of 2: [12, 38, 19]
+Children of 16: [29]
+Children of 9: [25, 59]
+Children of 12: [31]
+Children of 19: [22]
+Children of 25: [32]
+--------------------
+```
