@@ -25,3 +25,20 @@ Please ask questions in [Issues](https://github.com/msambol/youtube/issues).
 * [Python Time Complexities](https://wiki.python.org/moin/TimeComplexity) – time complexities of operations in Python
 * [Coding Interview University](https://github.com/jwasham/coding-interview-university) – awesome collection of CS material
 * [michaelsambol.com](https://michaelsambol.com) – my personal website
+
+
+### Languages
+
+Subtitles are posted in the languages below. If I missed yours, send me a note and I'll add it.
+
+* Chinese
+* Czech
+* English
+* French
+* German
+* Hebrew
+* Hindi
+* Italian
+* Japanese
+* Korean
+* Spanish
