@@ -4,7 +4,7 @@
 
 ### Binary Search
 
-* [Video](https://youtu.be/B25Gu5r0xUg)
+* [Video](https://youtu.be/fDKIpRe8GW4)
 ```
 ❯ python binary_search.py
 Index of 18: 5
