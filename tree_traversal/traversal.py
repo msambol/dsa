@@ -65,23 +65,6 @@ def in_order_recursive(root):
         in_order_recursive(root.right)
 
 
-def post_order_iterative(root):
-    stack = []
-    node = root
-
-    while True:
-        if node:
-            stack.append(node)
-            if node.right:
-                stack.append(node.right)
-            node = node.left
-        elif stack:
-            node = stack.pop()
-            print(node.data, end=' ')
-        else: 
-            break
-
-
 def post_order_recursive(root):
     if root:
         post_order_recursive(root.left)
