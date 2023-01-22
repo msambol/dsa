@@ -33,6 +33,8 @@ Subtitles are posted in the languages below. If I missed yours, send me a note.
 
 * Chinese
 * Czech
+* Danish
+* Dutch
 * English
 * French
 * German
