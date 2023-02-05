@@ -31,6 +31,7 @@ Please ask questions in [Issues](https://github.com/msambol/youtube/issues).
 
 Subtitles are posted in the languages below. If I missed yours, send me a note.
 
+* Arabic
 * Chinese
 * Czech
 * Danish
