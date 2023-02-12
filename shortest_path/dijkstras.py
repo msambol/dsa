@@ -1,3 +1,5 @@
+import heapq
+
 infinity = float("inf")
 
 def make_graph():
@@ -14,10 +16,8 @@ def make_graph():
 
 def dijkstras_heap(G, start='A'):
     shortest_paths = {} 
-    visited = {} 
-    history = {} 
-    heap = [] 
-    path = []
+    visited = {}
+    heap = []
 
     for node in list(G.keys()):
         shortest_paths[node] = infinity
@@ -78,9 +78,9 @@ def main():
     start = 'A'
 
     shortest_paths = dijkstras(G, start)
-    shortest_paths_using_heap = dijkstras(G, start)
+    shortest_paths_using_heap = dijkstras_heap(G, start)
 
     print(f'Shortest path from {start}: {shortest_paths}')
-    print(f'Shortest path from {start} using heap: {shortest_paths}')
+    print(f'Shortest path from {start} using heap: {shortest_paths_using_heap}')
 
 main()
