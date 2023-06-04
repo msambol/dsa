@@ -171,6 +171,7 @@ class FibonacciHeap():
         print('--------------------')
         print(f'Total nodes: {self.n}')
         print(f'Minimum: {self.min.key if self.min else None}')
+        print(f'Root list node: {self.root_list.key}')
         print(f'Root list: {root_list}')
 
         while unvisited:
@@ -400,9 +401,22 @@ def union_example():
     union.print_fibonacci_heap()
 
 
+def extract_min_example():
+    FH = make_large_fibonacci_heap()
+    
+    print('Before extract min:')
+    FH.print_fibonacci_heap()
+
+    FH.extract_min()
+
+    print('After extract min:')
+    FH.print_fibonacci_heap()
+
+
 def main():
     insert_example_1()
     insert_example_2()
     union_example()
+    extract_min_example()
 
 main()
