@@ -157,9 +157,10 @@ class FibonacciHeap():
             node = node.right
 
     # hacky way of printing the tree
-    def print_fibonacci_heap(self):
+    def print_fibonacci_heap(self, print_marked=False):
         unvisited = deque()
         root_list = []
+        marked_nodes = []
 
         if self.root_list:
             for node in self.iterate(self.root_list):
@@ -176,13 +177,19 @@ class FibonacciHeap():
 
         while unvisited:
             node = unvisited.popleft()
+            if node.mark and (node.key not in marked_nodes):
+                marked_nodes.append(node.key)
             if node.child:
                 children = []
                 for child in self.iterate(node.child):
                     children.append(child.key)
                     if child.child:
                         unvisited.append(child)
+                    if child.mark and (child.key not in marked_nodes):
+                        marked_nodes.append(child.key)
                 print(f'Children of {node.key}: {children}')
+        if print_marked:
+            print(f'Marked nodes: {marked_nodes}')
         print('--------------------\n')
 
     # modify the key of some node in the heap in O(1) time
@@ -194,8 +201,8 @@ class FibonacciHeap():
         if y is not None and x.key < y.key:
             self.cut(x, y)
             self.cascading_cut(y)
-        if x.key < self.min_node.key:
-            self.min_node = x
+        if x.key < self.min.key:
+            self.min = x
     
     # if a child node becomes smaller than its parent node we
     # cut this child node off and bring it up to the root list
@@ -370,6 +377,88 @@ def make_union_heap_2():
     return FH
 
 
+# make heap for decrease key example
+def make_decrease_key_heap():
+    FH = FibonacciHeap()
+
+    seven = FH.insert(7)
+    eighteen = FH.insert(18)
+    eighteen.mark = True
+    thirty_eight = FH.insert(38)
+
+    twenty_four = Node(24)
+    seventeen = Node(17)
+    twenty_three = Node(23)
+
+    twenty_four.right = seventeen
+    twenty_four.left = twenty_three
+    twenty_four.parent = seven
+    seventeen.right = twenty_three
+    seventeen.left = twenty_four
+    seventeen.parent = seven
+    twenty_three.right = twenty_four
+    twenty_three.left = seventeen
+    twenty_three.parent = seven
+    seven.child = twenty_four
+    seven.degree = 3
+
+    twenty_one = Node(21)
+    thirty_nine = Node(39)
+    thirty_nine.mark = True
+
+    twenty_one.right = thirty_nine
+    twenty_one.left = thirty_nine
+    twenty_one.parent = eighteen
+    thirty_nine.right = twenty_one
+    thirty_nine.left = twenty_one
+    twenty_one.parent = eighteen
+    eighteen.child = twenty_one
+    seven.degree = 2
+
+    fourty_one = Node(41)
+
+    fourty_one.left = fourty_one.right = fourty_one
+    fourty_one.parent = thirty_eight
+    thirty_eight.child = fourty_one
+    thirty_eight.degree = 1
+
+    twenty_six = Node(26)
+    twenty_six.mark = True
+    fourty_six = Node(46)
+
+    twenty_six.left = twenty_six.right = fourty_six
+    twenty_six.parent = twenty_four
+    fourty_six.left = fourty_six.right = twenty_six
+    fourty_six.parent = twenty_four
+    twenty_four.child = twenty_six
+    twenty_four.degree = 2
+
+    thirty = Node(30)
+
+    thirty.left = thirty.right = thirty
+    thirty.parent = seventeen 
+    seventeen.child = thirty
+    seventeen.degree = 1 
+
+    fifty_two = Node(52)
+
+    fifty_two.left = fifty_two.right = fifty_two
+    fifty_two.parent = twenty_one
+    twenty_one.child = fifty_two
+    twenty_one.degree = 1
+
+    thirty_five = Node(35)
+
+    thirty_five.left = thirty_five.right = thirty_five
+    thirty_five.parent = twenty_six
+    twenty_six.child = thirty_five
+    twenty_six.degree = 1
+
+    FH.set_node_count(14)
+
+    return FH
+
+
 def insert_example_1():
     FH = FibonacciHeap()
 
@@ -403,7 +492,7 @@ def union_example():
 
 def extract_min_example():
     FH = make_large_fibonacci_heap()
-    
+
     print('Before extract min:')
     FH.print_fibonacci_heap()
 
@@ -413,10 +502,30 @@ def extract_min_example():
     FH.print_fibonacci_heap()
 
 
+def decrease_key_example():
+    FH = make_decrease_key_heap()
+
+    print('Before decrease key:')
+    FH.print_fibonacci_heap(True)
+
+    x = FH.root_list.child.child.right
+    FH.decrease_key(x, 15)
+
+    print('After decrease key (46 to 15):')
+    FH.print_fibonacci_heap(True)
+
+    x = FH.root_list.child.child.child.left
+    FH.decrease_key(x, 5)
+
+    print('After decrease key (35 to 5):')
+    FH.print_fibonacci_heap(True)
+
+
 def main():
     insert_example_1()
     insert_example_2()
     union_example()
     extract_min_example()
+    decrease_key_example()
 
 main()

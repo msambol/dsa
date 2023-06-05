@@ -75,7 +75,7 @@ Heap: [89, 12, 65, 9, 5, 25, 28, 4, 6, 3, 0, 22, 20, 1, 10]
 ### Fibonacci Heap
 
 * [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNkwWDXcSiZjMgacw2P0U2j)
-* Videos: [Intro](https://youtu.be/0vsX3ZQFREM)
+* Videos: [Intro](https://youtu.be/0vsX3ZQFREM) | [Insert & Union](https://youtu.be/lJFi5akwsTM) | [Extract Min]() | [Decrease Key]() | [Delete]()
 * h/t **Daniel Borowski** – [GitHub](https://github.com/danielborowski/fibonacci-heap-python) | [LinkedIn](https://www.linkedin.com/in/daniel-borowski/)
 
 ```
@@ -176,5 +176,57 @@ Children of 19: [22]
 Children of 25: [32]
 Children of 12: [31, 16]
 Children of 16: [29]
+--------------------
+
+Before decrease key:
+--------------------
+-- Fibonacci Heap --
+--------------------
+Total nodes: 14
+Minimum: 7
+Root list node: 7
+Root list: [7, 18, 38]
+Children of 7: [24, 17, 23]
+Children of 18: [21, 39]
+Children of 38: [41]
+Children of 24: [26, 46]
+Children of 17: [30]
+Children of 21: [52]
+Children of 26: [35]
+Marked nodes: [18, 39, 26]
+--------------------
+
+After decrease key (46 to 15):
+--------------------
+-- Fibonacci Heap --
+--------------------
+Total nodes: 14
+Minimum: 7
+Root list node: 7
+Root list: [7, 18, 38, 15]
+Children of 7: [24, 17, 23]
+Children of 18: [21, 39]
+Children of 38: [41]
+Children of 24: [26]
+Children of 17: [30]
+Children of 21: [52]
+Children of 26: [35]
+Marked nodes: [24, 18, 39, 26]
+--------------------
+
+After decrease key (35 to 5):
+--------------------
+-- Fibonacci Heap --
+--------------------
+Total nodes: 14
+Minimum: 5
+Root list node: 7
+Root list: [7, 18, 38, 15, 5, 26, 24]
+Children of 7: [17, 23]
+Children of 18: [21, 39]
+Children of 38: [41]
+Children of 17: [30]
+Children of 21: [52]
+Marked nodes: [18, 39]
 --------------------
 ```
