@@ -233,8 +233,9 @@ class FibonacciHeap():
         node.left.right = node.right
         node.right.left = node.left
 
-    def delete(self, key):
-        pass
+    def delete(self, x):
+        self.decrease_key(x, float('-inf'))
+        return self.extract_min()
 
     # because I'm constructing the tree from the video manually
     def set_node_count(self, n):
@@ -521,11 +522,24 @@ def decrease_key_example():
     FH.print_fibonacci_heap(True)
 
 
+def delete_example():
+    FH = make_large_fibonacci_heap()
+
+    print('Before delete:')
+    FH.print_fibonacci_heap()
+
+    x = FH.min.child.right.right
+    print(f'After delete of {x.key}:')
+    FH.delete(x)
+    FH.print_fibonacci_heap()
+
+
 def main():
     insert_example_1()
     insert_example_2()
     union_example()
     extract_min_example()
     decrease_key_example()
+    delete_example()
 
 main()

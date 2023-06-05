@@ -229,4 +229,36 @@ Children of 17: [30]
 Children of 21: [52]
 Marked nodes: [18, 39]
 --------------------
+
+Before delete:
+--------------------
+-- Fibonacci Heap --
+--------------------
+Total nodes: 13
+Minimum: 2
+Root list node: 5
+Root list: [5, 2, 16, 9]
+Children of 2: [12, 38, 19]
+Children of 16: [29]
+Children of 9: [25, 59]
+Children of 12: [31]
+Children of 19: [22]
+Children of 25: [32]
+--------------------
+
+After delete of 19:
+--------------------
+-- Fibonacci Heap --
+--------------------
+Total nodes: 12
+Minimum: 2
+Root list node: 5
+Root list: [5, 2]
+Children of 5: [22, 16]
+Children of 2: [12, 9, 38]
+Children of 16: [29]
+Children of 12: [31]
+Children of 9: [25, 59]
+Children of 25: [32]
+--------------------
 ```
