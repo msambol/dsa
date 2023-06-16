@@ -48,6 +48,37 @@
 13(b) 8(r) 15(b) 1(b) 9(b) 23(r) 10(r) 
 ```
 
+### AVL trees
+
+* [Playlist]()
+* Videos: [Intro & Search]() | [Insertions]() | [Deletions]()
+* h/t **Shivali Bhadaniya** – [Article](https://favtutor.com/blogs/avl-tree-python) | [LinkedIn](https://www.linkedin.com/in/shivali-bhadaniya-76932a192/)
+
+```
+❯ python avl_tree.py
+
+Level-order traversal:
+50 25 75 15 35 60 120 10 68 90 125 83 100 
+
+Level-order traversal with height and balance factor:
+50:  h = 5, bf = -1
+25:  h = 3, bf = 1
+75:  h = 4, bf = -1
+15:  h = 2, bf = 1
+35:  h = 1, bf = 0
+60:  h = 2, bf = -1
+120: h = 3, bf = 1
+10:  h = 1, bf = 0
+68:  h = 1, bf = 0
+90:  h = 2, bf = 0
+125: h = 1, bf = 0
+83:  h = 1, bf = 0
+100: h = 1, bf = 0
+
+Search for 125: 125
+Search for 1: not found
+```
+
 ### B-trees
 
 * [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNFPPv98DjTdD9X6UI9KMHz)
