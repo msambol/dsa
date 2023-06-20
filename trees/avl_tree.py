@@ -84,9 +84,6 @@ class AVLTree:
             temp = self.get_min_node(root.right)
             root.key = temp.key
             root.right = self.delete(root.right, temp.key)
-        
-        if root is None:
-            return root
 
         root.height = 1 + max(self.get_height(root.left), self.get_height(root.right))
 
@@ -139,27 +136,30 @@ class AVLTree:
     
     # Level-order tree traversal
     def print_tree(self):
-        queue = deque()
-        queue.append(self.root)
+        if self.root:
+            queue = deque()
+            queue.append(self.root)
 
-        level_order = ''
-        level_order_with_details = ''
+            level_order = ''
+            level_order_with_details = ''
 
-        while(queue):
-            node = queue.popleft()
-            level_order += f'{node.key} '
-            level_order_with_details += f'{node.key}: '.ljust(5) + f'h = {self.get_height(node)}, bf = {self.get_balance_factor(node)}\n'
+            while(queue):
+                node = queue.popleft()
+                level_order += f'{node.key} '
+                level_order_with_details += f'{node.key}: '.ljust(5) + f'h = {self.get_height(node)}, bf = {self.get_balance_factor(node)}\n'
 
-            # add children to queue
-            if node.left != None:
-                queue.append(node.left)
-            if node.right != None:
-                queue.append(node.right)
-        
-        print('\nLevel-order traversal:')
-        print(level_order)
-        print(f'\nLevel-order traversal with height and balance factor:') 
-        print(level_order_with_details)
+                # add children to queue
+                if node.left != None:
+                    queue.append(node.left)
+                if node.right != None:
+                    queue.append(node.right)
+            
+            print('\nLevel-order traversal:')
+            print(level_order)
+            print(f'\nLevel-order traversal with height and balance factor:') 
+            print(level_order_with_details)
+        else:
+            print('\nAVL tree is empty!')
 
 
 def print_search_result(result):
