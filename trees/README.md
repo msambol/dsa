@@ -53,6 +53,7 @@
 * [Playlist]()
 * Videos: [Intro & Search]() | [Insertions]() | [Deletions]()
 * h/t **Shivali Bhadaniya** – [Article](https://favtutor.com/blogs/avl-tree-python) | [LinkedIn](https://www.linkedin.com/in/shivali-bhadaniya-76932a192/)
+* h/t **Programiz** – [AVL Tree](https://www.programiz.com/dsa/avl-tree)
 
 ```
 ❯ python avl_tree.py
@@ -77,6 +78,25 @@ Level-order traversal with height and balance factor:
 
 Search for 125: 125
 Search for 1: not found
+
+After deleting 120:
+
+Level-order traversal:
+50 25 75 15 35 60 90 10 68 83 125 100 
+
+Level-order traversal with height and balance factor:
+50:  h = 5, bf = -1
+25:  h = 3, bf = 1
+75:  h = 4, bf = -1
+15:  h = 2, bf = 1
+35:  h = 1, bf = 0
+60:  h = 2, bf = -1
+90:  h = 3, bf = -1
+10:  h = 1, bf = 0
+68:  h = 1, bf = 0
+83:  h = 1, bf = 0
+125: h = 2, bf = 1
+100: h = 1, bf = 0
 ```
 
 ### B-trees

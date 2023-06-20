@@ -20,6 +20,9 @@ class AVLTree:
     def get_balance_factor(self, node):
         return 0 if not node else (self.get_height(node.left) - self.get_height(node.right))
 
+    def get_min_node(self, node):
+        return node if not node or not node.left else self.get_min_node(node.left)
+
     # O(logn)
     def search(self, key):
         x = self.root
@@ -60,8 +63,51 @@ class AVLTree:
         
         return root
 
-    def delete(self, key):
-        pass
+    # O(logn)
+    def delete(self, root, key):
+        if not root:
+            return root
+        elif key < root.key:
+            root.left = self.delete(root.left, key)
+        elif key > root.key:
+            root.right = self.delete(root.right, key)
+        else:
+            if not root.left:
+                temp = root.right
+                root = None
+                return temp 
+            elif not root.right:
+                temp = root.left
+                root = None 
+                return temp 
+            # find inorder successor
+            temp = self.get_min_node(root.right)
+            root.key = temp.key
+            root.right = self.delete(root.right, temp.key)
+        
+        if root is None:
+            return root
+
+        root.height = 1 + max(self.get_height(root.left), self.get_height(root.right))
+
+        # Update the balance factor and balance the tree
+        bf = self.get_balance_factor(root)
+
+        if bf > 1 and self.get_balance_factor(root.left) >= 0:
+            return self.right_rotate(root)
+        
+        if bf < -1 and self.get_balance_factor(root.right) <= 0:
+            return self.left_rotate(root)
+        
+        if bf > 1 and self.get_balance_factor(root.left) < 0:
+            root.left = self.left_rotate(root.left)
+            return self.right_rotate(root)
+        
+        if bf < -1 and self.get_balance_factor(root.right) > 0:
+            root.right = self.right_rotate(root.right)
+            return self.left_rotate(root)
+        
+        return root
 
     # O(1)
     def left_rotate(self, node):
@@ -134,7 +180,9 @@ def main():
     
     result = avl.search(1)
     print(f'Search for 1: {print_search_result(result)}')
-    
-    return avl
+
+    avl.root = avl.delete(avl.root, 120)
+    print('\nAfter deleting 120:')
+    avl.print_tree()
 
 main()
