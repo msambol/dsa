@@ -50,8 +50,8 @@
 
 ### AVL trees
 
-* [Playlist]()
-* Videos: [Intro & Search]() | [Insertions]() | [Deletions]()
+* [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZOUFgdIeOPuH6cfSnNRMau-)
+* Videos: [Intro & Search](https://youtu.be/DB1HFCEdLxA) | [Insertions]() | [Deletions]()
 * h/t **Shivali Bhadaniya** – [Article](https://favtutor.com/blogs/avl-tree-python) | [LinkedIn](https://www.linkedin.com/in/shivali-bhadaniya-76932a192/)
 * h/t **Programiz** – [AVL Tree](https://www.programiz.com/dsa/avl-tree)
 
