@@ -185,4 +185,8 @@ def main():
     print('\nAfter deleting 120:')
     avl.print_tree()
 
+    avl.root = avl.delete(avl.root, 10)
+    print('After deleting 10:')
+    avl.print_tree()
+
 main()
