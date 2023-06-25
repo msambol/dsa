@@ -1,8 +1,10 @@
+# Data Structures and Algorithms
+
 Coding examples from my [YouTube channel](https://www.youtube.com/michaelsambol).
 The code may differ on some videos, as I've added to this retroactively.
 Please ask questions in [Issues](https://github.com/msambol/youtube/issues).
 
-### Playlists 
+## Playlists 
 
 * [CS Tutorials](https://www.youtube.com/playlist?list=PL9xmBV_5YoZPKwb4XPB1sG7S6kNpN9JJo) – all of my computer science tutorials in one playlist
 * [Big-O Notation](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
@@ -19,7 +21,8 @@ Please ask questions in [Issues](https://github.com/msambol/youtube/issues).
 * [Heaps](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
 * [Fibonacci Heaps](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNkwWDXcSiZjMgacw2P0U2j)
 
-### Useful pointers
+## Useful pointers
+
 * [Introduction to Algorithms](https://a.co/d/7oRsCT2) – my main source
 * [Algorithms](https://www.amazon.com/Algorithms-Sanjoy-Dasgupta/dp/0073523402) – another great source
 * [Big-O Cheat Sheet](https://www.bigocheatsheet.com/) – time & space complexities
@@ -28,7 +31,7 @@ Please ask questions in [Issues](https://github.com/msambol/youtube/issues).
 * [michaelsambol.com](https://michaelsambol.com) – my personal website
 * [Twitter](https://twitter.com/MikeSambol) – if you prefer to watch the videos there
 
-### Languages
+## Languages
 
 Subtitles are posted in the languages below. If I missed yours, send me a note.
 
