@@ -1,4 +1,4 @@
-# Data Structures and Algorithms
+# Data Structures & Algorithms
 
 Coding examples from my [YouTube channel](https://www.youtube.com/michaelsambol).
 The code may differ on some videos, as I've added to this retroactively.
