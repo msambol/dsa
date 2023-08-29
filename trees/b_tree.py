@@ -12,7 +12,7 @@ class BTree:
 
     def search(self, key, node=None):
         node = self.root if node == None else node
-    
+
         i = 0
         while i < len(node.keys) and key > node.keys[i]:
             i += 1
@@ -28,7 +28,7 @@ class BTree:
 
         # y is a full child of x
         y = x.children[i]
-        
+
         # create a new node and add it to x's list of children
         z = Node(y.leaf)
         x.children.insert(i + 1, z)
@@ -43,7 +43,7 @@ class BTree:
         # if y is not a leaf, we reassign y's children to y & z
         if not y.leaf:
             z.children = y.children[t: 2 * t]
-            y.children = y.children[0: t - 1]
+            y.children = y.children[0: t]
 
     def insert(self, k):
         t = self.t
@@ -85,7 +85,7 @@ class BTree:
     def delete(self, x, k):
         t = self.t
         i = 0
-        
+
         while i < len(x.keys) and k > x.keys[i]:
             i += 1
         if x.leaf:
@@ -287,7 +287,7 @@ def delete_example():
 
 def insert_and_search_example():
     B = BTree(3)
-    
+
     for i in range(10):
         B.insert(i)
 
@@ -307,5 +307,6 @@ def main():
     insert_and_search_example()
 
     delete_example()
+
 
 main()
