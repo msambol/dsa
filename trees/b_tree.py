@@ -4,6 +4,12 @@ class Node:
         self.children = []
         self.leaf = leaf
 
+    def __repr__(self):
+        res = []
+        for i in range(len(self.keys)):
+            res.append(str(self.keys[i]))
+        return ",".join(res)
+
 
 class BTree:
     def __init__(self, t):
@@ -92,36 +98,43 @@ class BTree:
             if i < len(x.keys) and x.keys[i] == k:
                 x.keys.pop(i)
             return
-
         if i < len(x.keys) and x.keys[i] == k:
             return self.delete_internal_node(x, k, i)
         elif len(x.children[i].keys) >= t:
             self.delete(x.children[i], k)
         else:
-            if i != 0 and i + 2 < len(x.children):
+
+            if i != 0 and i + 1 < len(x.children):
                 if len(x.children[i - 1].keys) >= t:
                     self.delete_sibling(x, i, i - 1)
+                    self.delete(x.children[i], k)
                 elif len(x.children[i + 1].keys) >= t:
                     self.delete_sibling(x, i, i + 1)
+                    self.delete(x.children[i], k)
                 else:
-                    self.delete_merge(x, i, i + 1)
+                    x = self.delete_merge(x, i, i + 1)
+                    self.delete(x, k)
             elif i == 0:
                 if len(x.children[i + 1].keys) >= t:
                     self.delete_sibling(x, i, i + 1)
+                    self.delete(x.children[i], k)
                 else:
-                    self.delete_merge(x, i, i + 1)
+                    x = self.delete_merge(x, i, i + 1)
+                    self.delete(x, k)
             elif i + 1 == len(x.children):
                 if len(x.children[i - 1].keys) >= t:
                     self.delete_sibling(x, i, i - 1)
+                    self.delete(x.children[i], k)
                 else:
-                    self.delete_merge(x, i, i - 1)
-            self.delete(x.children[i], k)
+                    x = self.delete_merge(x, i, i - 1)
+                    self.delete(x, k)
 
     def delete_internal_node(self, x, k, i):
         t = self.t
         if x.leaf:
             if x.keys[i] == k:
                 x.keys.pop(i)
+            # print(x.keys, k)
             return
 
         if len(x.children[i].keys) >= t:
@@ -183,6 +196,7 @@ class BTree:
 
         if x == self.root and len(x.keys) == 0:
             self.root = new
+        return x
 
     def delete_sibling(self, x, i, j):
         cnode = x.children[i]
