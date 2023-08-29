@@ -142,7 +142,7 @@ class BTree:
             self.delete_sibling(x, n + 1, n)
         else:
             self.delete_merge(x, n, n + 1)
-        self.delete_predecessor(x.children[n])
+        return self.delete_predecessor(x.children[n])
 
     def delete_successor(self, x):
         if x.leaf:
@@ -151,7 +151,7 @@ class BTree:
             self.delete_sibling(x, 0, 1)
         else:
             self.delete_merge(x, 0, 1)
-        self.delete_successor(x.children[0])
+        return self.delete_successor(x.children[0])
 
     def delete_merge(self, x, i, j):
         cnode = x.children[i]
@@ -171,10 +171,10 @@ class BTree:
         else:
             lsnode = x.children[j]
             lsnode.keys.append(x.keys[j])
-            for i in range(len(cnode.keys)):
-                lsnode.keys.append(cnode.keys[i])
+            for _ in range(len(cnode.keys)):
+                lsnode.keys.append(cnode.keys[_])
                 if len(lsnode.children) > 0:
-                    lsnode.children.append(cnode.children[i])
+                    lsnode.children.append(cnode.children[_])
             if len(lsnode.children) > 0:
                 lsnode.children.append(cnode.children.pop())
             new = lsnode
