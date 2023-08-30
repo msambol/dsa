@@ -134,7 +134,6 @@ class BTree:
         if x.leaf:
             if x.keys[i] == k:
                 x.keys.pop(i)
-            # print(x.keys, k)
             return
 
         if len(x.children[i].keys) >= t:
@@ -227,6 +226,11 @@ class BTree:
         if len(x.children) > 0:
             for i in x.children:
                 self.print_tree(i, level)
+
+    def get_height(self, node, level=0):
+        if node.leaf:
+            return level
+        return self.get_height(node.children[0], level + 1)
 
 
 def delete_example():

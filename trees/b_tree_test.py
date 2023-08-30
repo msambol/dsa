@@ -2,8 +2,12 @@ import pytest
 from b_tree import BTree
 import random
 import logging
-
+import math
 logging.basicConfig(level=logging.DEBUG)
+
+
+def find_height_upper_bound(n, t):
+    return math.log((n + 1) / 2, t)
 
 
 class TestBTree:
@@ -123,3 +127,33 @@ class TestBTree:
                     btree.delete(btree.root, value_for_deletion)
                     node = btree.search(value_for_deletion)
                     assert node is None
+
+    def test_height_in_bound(self):
+
+        for _ in range(100):
+            t = random.sample(range(2, 15), 1)[0]
+            logging.debug(f"processing t: {t}")
+            ub = 5
+            values_for_insertion = set(
+                random.sample(range(1, 10 ** ub), 10 ** ub // 2))
+            non_exist_values = [i for i in range(
+                1, 10**ub) if i not in values_for_insertion]
+            btree = BTree(t)
+            count = (10 ** ub // 2) - 2
+            inserted = set()
+            while count:
+                count -= 1
+                value_for_insertion = values_for_insertion.pop()
+                inserted.add(value_for_insertion)
+                btree.insert(value_for_insertion)
+                delOrNot = random.sample([0, 1], 1)[0]
+                if delOrNot:
+                    value_for_deletion = inserted.pop()
+                    btree.delete(btree.root, value_for_deletion)
+                    node = btree.search(value_for_deletion)
+                    assert node is None
+                n = len(inserted)
+                h = btree.get_height(btree.root)
+                height_ub = find_height_upper_bound(n, t)
+                if n > 1:
+                    assert h <= height_ub
