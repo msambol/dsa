@@ -85,7 +85,7 @@ class BTree:
     def delete(self, x, k):
         t = self.t
         i = 0
-        
+
         while i < len(x.keys) and k > x.keys[i]:
             i += 1
         if x.leaf:
@@ -287,7 +287,7 @@ def delete_example():
 
 def insert_and_search_example():
     B = BTree(3)
-    
+
     for i in range(10):
         B.insert(i)
 
