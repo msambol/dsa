@@ -43,7 +43,7 @@ class BTree:
         # if y is not a leaf, we reassign y's children to y & z
         if not y.leaf:
             z.children = y.children[t: 2 * t]
-            y.children = y.children[0: t - 1]
+            y.children = y.children[0: t] # video incorrectly has t-1
 
     def insert(self, k):
         t = self.t
