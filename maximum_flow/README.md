@@ -7,7 +7,7 @@
 * [Video](https://youtu.be/Tl90tNtKvxs)
 * h/t **Algorithm Examples** – [Ford-Fulkerson Algorithm](https://python.algorithmexamples.com/web/networking_flow/ford_fulkerson.html)
 
-```
+```python
 ❯ python ford_fulkerson.py
 Maximum flow: 19
 ```

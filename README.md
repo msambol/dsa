@@ -22,7 +22,7 @@ The code may differ on some videos, as I've added to this retroactively.
 | Heaps | Nearly complete binary trees useful for priority queues (min–heaps) and heap sort (max–heaps). | [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6) | [Code](https://github.com/msambol/dsa/blob/master/data_structures/heap.py) |
 | Fibonacci Heaps | Data structure that implements a mergeable heap. | [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNkwWDXcSiZjMgacw2P0U2j) | [Code](https://github.com/msambol/dsa/blob/master/data_structures/fibonacci_heap.py) |
 
-## Useful pointers
+## Useful Pointers
 
 * [Introduction to Algorithms](https://a.co/d/7oRsCT2) – my main source
 * [Algorithms](https://www.amazon.com/Algorithms-Sanjoy-Dasgupta/dp/0073523402) – another great source

@@ -5,7 +5,8 @@
 ### Binary Search
 
 * [Video](https://youtu.be/fDKIpRe8GW4)
-```
+
+```python
 ❯ python binary_search.py
 Index of 18: 5
 Index of 1: 0
@@ -18,7 +19,8 @@ Index of 50: -1
 ### Breadth-First Search
 
 * [Video](https://youtu.be/HZ5YTanv5QE)
-```
+
+```python
 ❯ python breadth_first_search.py
 A B C D E F G H I
 ```
@@ -26,7 +28,8 @@ A B C D E F G H I
 ### Depth-First Search
 
 * [Video](https://youtu.be/Urx87-NMm6c)
-```
+
+```python
 ❯ python depth_first_search.py
 A B C D E F G H I 
 ```

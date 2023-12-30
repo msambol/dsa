@@ -5,7 +5,8 @@
 ### Linked List
 
 * [Video](https://youtu.be/F8AbOfQwl1c)
-```
+
+```python
 ❯ python linked_list.py
 None
 5 --> None
@@ -21,7 +22,8 @@ None
 ### Stack
 
 * [Video](https://youtu.be/KcT3aVgrrpU)
-```
+
+```python
 ❯ python stack.py
 []
 [1]
@@ -37,7 +39,8 @@ None
 ### Queue
 
 * [Video](https://youtu.be/D6gu-_tmEpQ)
-```
+
+```python
 ❯ python queue.py
 deque([])
 deque([1])
@@ -53,7 +56,8 @@ deque([])
 ### Hash Table
 
 * [Video](https://youtu.be/knV86FlSXJ8)
-```
+
+```python
 ❯ python hash_table.py
 {'a': 1, 'b': 9, 'c': 'nebraska', 'd': True}
 {'a': 1, 'b': 9, 'c': 'nebraska', 'd': True, 'e': False}
@@ -67,7 +71,7 @@ hash of 50 with table size 13 --> 11
 * [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)
 * Videos: [Intro](https://youtu.be/0wPlzMU-k00) | [Methods](https://youtu.be/pAU21g-jBiE) | [Sort](https://youtu.be/2DmK_H7IdTo)
 
-```
+```python
 ❯ python heap.py
 Heap: [89, 12, 65, 9, 5, 25, 28, 4, 6, 3, 0, 22, 20, 1, 10]
 ```
@@ -78,7 +82,7 @@ Heap: [89, 12, 65, 9, 5, 25, 28, 4, 6, 3, 0, 22, 20, 1, 10]
 * Videos: [Intro](https://youtu.be/0vsX3ZQFREM) | [Insert & Union](https://youtu.be/lJFi5akwsTM) | [Extract Min](https://youtu.be/OF8yv18xS3I) | [Decrease Key](https://youtu.be/z_3wye57yxs) | [Delete](https://youtu.be/XjNjyCQ_hTc)
 * h/t **Daniel Borowski** – [GitHub](https://github.com/danielborowski/fibonacci-heap-python) | [LinkedIn](https://www.linkedin.com/in/daniel-borowski/)
 
-```
+```python
 ❯ python fibonacci_heap.py
 --------------------
 -- Fibonacci Heap --

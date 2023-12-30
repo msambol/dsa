@@ -5,7 +5,7 @@
 * [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNqDI8qfOZgzbqahCUmUEin)
 * Videos: [Intro](https://youtu.be/qvZGUFHWChY) | [Rotations](https://youtu.be/95s3ndZRGbk) | [Insertions (strategy)](https://youtu.be/5IBxA-bZZH8) | [Insertions (examples)](https://youtu.be/A3JZinzkMpk) | [Deletions](https://youtu.be/lU99loSvD8s) | [Delete Fixes](https://youtu.be/iw8N1_keEWA)
 
-```
+```python
 ❯ python red_black_tree.py
 
 -- ROTATIONS VIDEO --
@@ -55,7 +55,7 @@
 * h/t **Shivali Bhadaniya** – [Article](https://favtutor.com/blogs/avl-tree-python) | [LinkedIn](https://www.linkedin.com/in/shivali-bhadaniya-76932a192/)
 * h/t **Programiz** – [AVL Tree](https://www.programiz.com/dsa/avl-tree)
 
-```
+```python
 ❯ python avl_tree.py
 
 Level-order traversal:
@@ -105,7 +105,7 @@ Level-order traversal with height and balance factor:
 * Videos: [Intro](https://youtu.be/FgWbADOG44s) | [Properties](https://youtu.be/fAfuZiFDpRo) | [Search](https://youtu.be/jLEhJqNVauc) | [Insertions](https://youtu.be/tT2DT9Z4H-0) | [Deletions](https://youtu.be/pN4C8cLVc7I)
 * h/t **Programiz** – [Insertion into a B-tree](https://www.programiz.com/dsa/insertion-into-a-b-tree) | [Deletion from a B-tree](https://www.programiz.com/dsa/deletion-from-a-b-tree)
 
-```
+```python
 ❯ python b_tree.py
 
 --- INSERT & SEARCH ---

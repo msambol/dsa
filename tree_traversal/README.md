@@ -3,7 +3,7 @@
 * [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO1JC2RgEi04nLy6D-rKk6b)
 * Videos: [Pre-order](https://youtu.be/1WxLM2hwL-U) | [In-order](https://youtu.be/5dySuyZf9Qg) | [Post-order](https://youtu.be/4zVdfkpcT6U) | [Level-order](https://youtu.be/IozGo2kwRYE)
 
-```
+```python
 ❯ python traversal.py
  
                 1
