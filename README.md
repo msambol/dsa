@@ -7,8 +7,8 @@ The code may differ on some videos, as I've added to this retroactively.
 
 | Topic | Description | Playlist | Code | 
 | ----- | ----------- | -------- | -----|
-| CS Tutorials | All of my computer science tutorials in one playlist. | [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZPKwb4XPB1sG7S6kNpN9JJo) | |
-| Big-O Notation | Time complexity of algorithms. | [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv) | |
+| CS Tutorials | All of my computer science tutorials in one playlist. | [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZPKwb4XPB1sG7S6kNpN9JJo) | [Code](https://github.com/msambol/dsa) |
+| Analyzing Algorithms | Time complexity of algorithms. | [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv) | [Code](https://github.com/msambol/dsa/tree/master/analyzing_algorithms) |
 | Data Structures | The building blocks! | [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO2D89q42-y8voxIJKpB4oR) | [Code](https://github.com/msambol/dsa/tree/master/data_structures) |
 | Minimum Spanning Trees | Greedy algorithms for finding a minimum spanning tree in a weighted, undirected graph. Prim's = pick a node. Kruskal's = iterate through edges. | [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZObEi3Hf6lmyW-CBfs7nkOV) | [Code](https://github.com/msambol/dsa/tree/master/minimum_spanning_trees) | 
 | Shortest Path Algos | Dijkstra's = shortest path from one node to all nodes. Bellman–Ford = shortest path from one node to all nodes, negative edges allowed (not negative cycles). Floyd–Warshall = shortest path between all pairs of vertices, negative edges allowed (not negative cycles). | [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZO-Y-H3xIC9DGSfVYJng9Yw) | [Code](https://github.com/msambol/dsa/tree/master/shortest_path) | 
@@ -30,7 +30,7 @@ The code may differ on some videos, as I've added to this retroactively.
 * [Python Time Complexities](https://wiki.python.org/moin/TimeComplexity) – time complexities of operations in Python
 * [Coding Interview University](https://github.com/jwasham/coding-interview-university) – awesome collection of CS material
 * [michaelsambol.com](https://michaelsambol.com) – my personal website
-* [Twitter](https://twitter.com/MikeSambol) – if you prefer to watch the videos there
+* [X](https://x.com/MikeSambol) – if you prefer to watch the videos there
 
 ## Languages
 
