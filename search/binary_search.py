@@ -24,4 +24,5 @@ def main():
     print(f'Index of 30: {binary_search(array, 50)}')
     print(f'Index of 50: {binary_search(array, 99999)}')
 
+
 main()

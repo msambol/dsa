@@ -20,4 +20,5 @@ def main():
     bubble_sort(list)
     print(list)
 
+
 main()

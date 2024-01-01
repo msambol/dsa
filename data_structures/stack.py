@@ -36,4 +36,5 @@ def main():
     stack.pop()
     stack.print_stack()
 
+
 main()

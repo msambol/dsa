@@ -3,6 +3,7 @@
 #
 # n = length of array
 
+
 def insertion_sort(A):                   # COST     TIMES
     for j in range(2, len(A)):           # c1       n
         key = A[j]                       # c2       n - 1 
@@ -26,5 +27,6 @@ def main():
     list = [None, 3, 9, 2, 1]
     insertion_sort(list)
     print(list)
+
 
 main()

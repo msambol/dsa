@@ -1,6 +1,8 @@
 from collections import deque
 
+
 infinity = float("inf")
+
 
 def make_graph():
     # identical graph as the YouTube video: https://youtu.be/Tl90tNtKvxs
@@ -12,6 +14,7 @@ def make_graph():
             [0, 0, 6, 0, 0, 10],
             [0, 0, 0, 0, 0, 0],
         ]
+
 
 # find paths from source to sink with breadth-first search
 def bfs(G, source, sink, parent):
@@ -67,5 +70,6 @@ def main():
     sink = 5
     max_flow = ford_fulkerson(G, source, sink)
     print(f'Maximum flow: {max_flow}')
+
 
 main()

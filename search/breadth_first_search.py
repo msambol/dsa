@@ -1,5 +1,6 @@
 from collections import deque
 
+
 graph = {
   'A' : ['B','C'],
   'B' : ['D', 'E', 'F'],
@@ -11,6 +12,7 @@ graph = {
   'H' : [],
   'I' : []
 }
+
 
 def bfs(graph, node):
     visited = []
@@ -31,7 +33,9 @@ def bfs(graph, node):
                 visited.append(n)
                 queue.append(n)
 
+
 def main():
     bfs(graph, 'A')
+
 
 main()

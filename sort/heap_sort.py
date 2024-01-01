@@ -1,11 +1,14 @@
 def left(i):
     return 2*i
 
+
 def right(i):
     return 2*i + 1
 
+
 def parent(i):
     return i//2
+
 
 def max_heapify(a, heap_size, i):
     l = left(i)
@@ -56,5 +59,6 @@ def main():
     a = [None, 3, 9, 2, 1]
     heap_sort(a)
     print(a[1:])
+
 
 main()

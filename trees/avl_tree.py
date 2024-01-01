@@ -1,6 +1,8 @@
 # derived from https://favtutor.com/blogs/avl-tree-python with permission
 
+
 from collections import deque
+
 
 class Node:
     def __init__(self, key):
@@ -188,5 +190,6 @@ def main():
     avl.root = avl.delete(avl.root, 10)
     print('After deleting 10:')
     avl.print_tree()
+
 
 main()

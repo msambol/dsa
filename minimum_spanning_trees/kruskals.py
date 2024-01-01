@@ -1,5 +1,6 @@
 from unionfind import unionfind
 
+
 def make_graph():
     # identical graph as the YouTube video: https://youtu.be/71UQH7Pr9kU
     # tuple = (cost, n1, n2)
@@ -55,5 +56,6 @@ def main():
 
     print(f'Minimum spanning tree: {MST}')
     print(f'Total cost: {total_cost}')
+
 
 main()

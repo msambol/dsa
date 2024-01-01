@@ -1,6 +1,8 @@
 import heapq
 
+
 infinity = float("inf")
+
 
 def make_graph():
     # identical graph as the YouTube video: https://youtu.be/_lHSawdgXpI
@@ -82,5 +84,6 @@ def main():
 
     print(f'Shortest path from {start}: {shortest_paths}')
     print(f'Shortest path from {start} using heap: {shortest_paths_using_heap}')
+
 
 main()

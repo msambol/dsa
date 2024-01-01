@@ -25,4 +25,5 @@ def main():
     selection_sort(list)
     print(list)
 
+
 main()

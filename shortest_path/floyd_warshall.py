@@ -1,5 +1,6 @@
 infinity = float("inf")
 
+
 def make_graph():
     # identical graph as the YouTube video: https://youtu.be/4OQeCuLYj-4
     # tuple = (cost, to_node)
@@ -47,5 +48,6 @@ def main():
     print(f'Shortest path matrix:\n')
     for item in shortest_path_matrix:
         print(item)
+
 
 main()

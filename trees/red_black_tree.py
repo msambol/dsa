@@ -1,9 +1,12 @@
 # source: https://a.co/d/7oRsCT2
 
+
 from collections import deque
+
 
 BLACK = True
 RED = False
+
 
 class Node:
     def __init__(self, key):
@@ -359,6 +362,8 @@ def main():
     # https://youtu.be/A3JZinzkMpk
     insertions_video()
 
+    # https://youtu.be/lU99loSvD8s | https://youtu.be/iw8N1_keEWA
     deletions_video()
+
 
 main()

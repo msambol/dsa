@@ -1,5 +1,6 @@
 infinity = float("inf")
 
+
 def make_graph():
     # identical graph as the YouTube video: https://youtu.be/obWXjtg0L64
     # tuple = (cost, to_node)
@@ -62,5 +63,6 @@ def main():
     G = make_graph_with_negative_cycle()
     negative_cycle = bellman_ford(G, start)
     print(f'Shortest path from {start}: {negative_cycle}')
+
 
 main()

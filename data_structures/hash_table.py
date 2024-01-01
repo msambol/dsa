@@ -28,4 +28,5 @@ def main():
     m = 13
     print(f'hash of 50 with table size 13 --> {hashing_by_division(k, m)}')
 
+
 main()

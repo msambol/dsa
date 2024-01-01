@@ -10,6 +10,7 @@ graph = {
   'I' : [],
 }
 
+
 def dfs(graph, node):
     visited = []
     stack = []
@@ -27,7 +28,9 @@ def dfs(graph, node):
                 visited.append(n)
                 stack.append(n)
 
+
 def main():
     dfs(graph, 'A')
+
 
 main()

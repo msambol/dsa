@@ -20,4 +20,5 @@ def main():
     insertion_sort(list)
     print(list)
 
+
 main()

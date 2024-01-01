@@ -39,4 +39,5 @@ def main():
     sorted = merge_sort(unsorted)
     print(sorted)
 
+
 main()

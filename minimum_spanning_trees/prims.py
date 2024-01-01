@@ -1,5 +1,6 @@
 import heapq
 
+
 def make_graph():
     # identical graph as the YouTube video: https://youtu.be/cplfcGZmX7I
     # tuple = (cost, n1, n2)
@@ -55,5 +56,6 @@ def main():
 
     print(f'Minimum spanning tree: {MST}')
     print(f'Total cost: {total_cost}')
+
 
 main()

@@ -28,4 +28,5 @@ def main():
     quick_sort(list, 0, len(list) - 1)
     print(list)
 
+
 main()
