@@ -1,7 +1,7 @@
 ## Analyzing Algorithms
 
 * [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
-* Videos: [Intro](https://youtu.be/) | [Big-O Notation](https://youtu.be/__vX2sjlpXU)
+* Videos: [Intro](https://youtu.be/2_Ud0TESsa0) | [Big-O Notation](https://youtu.be/__vX2sjlpXU)
 
 ```python
  ❯ python intro.py
