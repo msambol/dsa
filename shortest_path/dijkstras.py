@@ -1,5 +1,6 @@
 import heapq
 
+
 infinity = float("inf")
 
 
@@ -80,5 +81,6 @@ def main():
 
     print(f'Shortest path from {start}: {shortest_paths}')
     print(f'Shortest path from {start} using heap: {shortest_paths_using_heap}')
+
 
 main()
