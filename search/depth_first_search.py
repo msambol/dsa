@@ -12,8 +12,8 @@ graph = {
 
 
 def dfs(graph, node):
-    # the video has visited as an array. I changed this to set because 'n not in visited' is O(1) instead of O(n).
-    # see this link for more: https://wiki.python.org/moin/TimeComplexity.
+    # The video has visited as an array. I changed this to set because 'n not in visited' is O(1) instead of O(n).
+    # See this link for more: https://wiki.python.org/moin/TimeComplexity.
     visited = set()
     stack = []
 
