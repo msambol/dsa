@@ -12,8 +12,8 @@ graph = {
 
 
 def dfs(graph, node):
-    # the video has visited as an array. I changed this to set because 'n not in visited' is O(1) instead of O(n).
-    # see this link for more: https://wiki.python.org/moin/TimeComplexity.
+    # The video has visited as an array. I changed this to set because 'n not in visited' is O(1) instead of O(n).
+    # See this link for more: https://wiki.python.org/moin/TimeComplexity.
     visited = set()
     stack = []
 
@@ -22,10 +22,11 @@ def dfs(graph, node):
 
     while stack:
         s = stack.pop()
-        print(s, end = " ")
+        print(s, end = ' ')
 
-        # reverse iterate through edge list so results match recursive version
+        # Reverse iterate through the edge list so results match recursive version.
         for n in reversed(graph[s]):
+            # Because visited is a set, this lookup is O(1).
             if n not in visited:
                 visited.add(n)
                 stack.append(n)
