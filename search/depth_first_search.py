@@ -22,10 +22,11 @@ def dfs(graph, node):
 
     while stack:
         s = stack.pop()
-        print(s, end = " ")
+        print(s, end = ' ')
 
-        # reverse iterate through edge list so results match recursive version
+        # Reverse iterate through the edge list so results match recursive version.
         for n in reversed(graph[s]):
+            # Because visited is a set, this lookup is O(1).
             if n not in visited:
                 visited.add(n)
                 stack.append(n)
