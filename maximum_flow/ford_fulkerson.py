@@ -18,23 +18,23 @@ def make_graph():
 
 # find paths from source to sink with breadth-first search
 def bfs(G, source, sink, parent):
-    visited = [False] * len(G)
+    visited = set()
 
     queue = deque()
     queue.append(source)
 
-    visited[source] = True
+    visited.add(source)
  
     while queue:
         node = queue.popleft()
 
         for i in range(len(G[node])):
-            if visited[i] is False and G[node][i] > 0:
+            if i not in visited and G[node][i] > 0:
                 queue.append(i)
-                visited[i] = True
+                visited.add(i)
                 parent[i] = node
  
-    return True if visited[sink] else False
+    return sink in visited
 
 
 def ford_fulkerson(G, source, sink):
