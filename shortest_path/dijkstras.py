@@ -18,27 +18,25 @@ def make_graph():
 
 def dijkstras_heap(G, start='A'):
     shortest_paths = {} 
-    visited = {}
+    visited = set()
     heap = []
 
-    for node in list(G.keys()):
+    for node in G.keys():
         shortest_paths[node] = infinity
-        visited[node] = False
 
     shortest_paths[start] = 0 
-    visited[start] = True
+    visited.add(start)
 
     heapq.heappush(heap, (0, start))
 
     while heap:
         (distance, node) = heapq.heappop(heap)
-        visited[node] = True
+        visited.add(node)
 
         for edge in G[node]:
-            cost = edge[0]
-            to_node = edge[1]
+            cost, to_node = edge
 
-            if (not visited[to_node]) and (distance + cost < shortest_paths[to_node]):
+            if (to_node not in visited) and (distance + cost < shortest_paths[to_node]):
                 shortest_paths[to_node] = distance + cost
                 heapq.heappush(heap, (shortest_paths[to_node], to_node))
 
@@ -47,7 +45,7 @@ def dijkstras_heap(G, start='A'):
 
 def dijkstras(G, start='A'):
     shortest_paths = {}
-    unvisited = list(G.keys())
+    unvisited = dict.fromkeys(G.keys())
 
     for node in unvisited:
         shortest_paths[node] = infinity
@@ -64,13 +62,12 @@ def dijkstras(G, start='A'):
                 min_node = node
 
         for edge in G[min_node]:
-            cost = edge[0]
-            to_node = edge[1]
+            cost, to_node = edge
 
             if cost + shortest_paths[min_node] < shortest_paths[to_node]:
                 shortest_paths[to_node] = cost + shortest_paths[min_node]
 
-        unvisited.remove(min_node)
+        del unvisited[min_node]
 
     return shortest_paths
 
