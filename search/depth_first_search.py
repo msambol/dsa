@@ -11,11 +11,12 @@ graph = {
 }
 
 
+
 def dfs(graph, node):
-    visited = []
+    visited = set()
     stack = []
 
-    visited.append(node)
+    visited.add(node)
     stack.append(node) 
 
     while stack:
@@ -25,7 +26,7 @@ def dfs(graph, node):
         # reverse iterate through edge list so results match recursive version
         for n in reversed(graph[s]):
             if n not in visited:
-                visited.append(n)
+                visited.add(n)
                 stack.append(n)
 
 
