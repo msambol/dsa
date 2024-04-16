@@ -53,4 +53,5 @@ Subtitles are posted in the languages below. If I missed yours, send me a note.
 * Polish
 * Portuguese
 * Spanish
+* Swahili
 * Turkish
