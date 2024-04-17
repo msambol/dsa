@@ -1,6 +1,6 @@
 # Data Structures & Algorithms
 
-Code examples from my [YouTube channel](https://www.youtube.com/michaelsambol).
+Code examples from my [YouTube channel](https://www.youtube.com/@MichaelSambol).
 The code may differ on some videos, as I've added to this retroactively.
 
 ## Topics 
@@ -22,16 +22,13 @@ The code may differ on some videos, as I've added to this retroactively.
 | Heaps | Nearly complete binary trees useful for priority queues (min–heaps) and heap sort (max–heaps). | [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6) | [Code](https://github.com/msambol/dsa/blob/master/data_structures/heap.py) |
 | Fibonacci Heaps | Data structure that implements a mergeable heap. | [Playlist](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNkwWDXcSiZjMgacw2P0U2j) | [Code](https://github.com/msambol/dsa/blob/master/data_structures/fibonacci_heap.py) |
 
-## Useful Pointers
+## Additional Learning
 
-* [Introduction to Algorithms](https://a.co/d/7oRsCT2) – my main source
-* [Algorithms](https://www.amazon.com/Algorithms-Sanjoy-Dasgupta/dp/0073523402) – another great source
-* [Big-O Cheat Sheet](https://www.bigocheatsheet.com/) – time & space complexities
-* [Python Time Complexities](https://wiki.python.org/moin/TimeComplexity) – time complexities of operations in Python
-* [Coding Interview University](https://github.com/jwasham/coding-interview-university) – awesome collection of CS material
-* [michaelsambol.com](https://michaelsambol.com) – my personal website
-* [Medium](https://michaelsambol.medium.com/) – my technical blog
-* [X](https://x.com/MikeSambol) – if you prefer to watch the videos there
+* [Introduction to Algorithms (CLRS)](https://a.co/d/7oRsCT2)
+* [Algorithms](https://a.co/d/icfHd1S)
+* [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
+* [Python Time Complexities](https://wiki.python.org/moin/TimeComplexity)
+* [Coding Interview University](https://github.com/jwasham/coding-interview-university)
 
 ## Languages
 
