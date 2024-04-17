@@ -37,6 +37,7 @@ The code may differ on some videos, as I've added to this retroactively.
 Subtitles are posted in the languages below. If I missed yours, send me a note.
 
 * Arabic
+* Bangla
 * Chinese
 * Croatian
 * Czech
@@ -50,8 +51,15 @@ Subtitles are posted in the languages below. If I missed yours, send me a note.
 * Italian
 * Japanese
 * Korean
+* Marathi
 * Polish
 * Portuguese
+* Russian
 * Spanish
 * Swahili
+* Tamil
+* Telugu
 * Turkish
+* Ukrainian
+* Urdu
+* Vietnamese
