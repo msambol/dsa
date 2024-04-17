@@ -30,6 +30,7 @@ The code may differ on some videos, as I've added to this retroactively.
 * [Python Time Complexities](https://wiki.python.org/moin/TimeComplexity) – time complexities of operations in Python
 * [Coding Interview University](https://github.com/jwasham/coding-interview-university) – awesome collection of CS material
 * [michaelsambol.com](https://michaelsambol.com) – my personal website
+* [Medium](https://michaelsambol.medium.com/) – my technical blog
 * [X](https://x.com/MikeSambol) – if you prefer to watch the videos there
 
 ## Languages
