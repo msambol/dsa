@@ -9,10 +9,8 @@ def selection_sort(list):
                 min = j
 
         if min != i:
-            temp = list[i]
-            list[i] = list[min]
-            list[min] = temp
-
+            list[i], list[min] = list[min], list[i]
+            
     return list
 
 
