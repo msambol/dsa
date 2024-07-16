@@ -17,12 +17,12 @@ def binary_search(array, target):
 
 def main():
     array = [1, 4, 5, 7, 9, 12, 15, 18, 19, 22, 25, 29, 40, 50]
-    print(f'Index of 18: {binary_search(array, 12)}')
+    print(f'Index of 12: {binary_search(array, 12)}')
     print(f'Index of 1: {binary_search(array, 1)}')
     print(f'Index of 9: {binary_search(array, 9)}')
     print(f'Index of 22: {binary_search(array, 22)}')
-    print(f'Index of 30: {binary_search(array, 50)}')
-    print(f'Index of 50: {binary_search(array, 99999)}')
+    print(f'Index of 50: {binary_search(array, 50)}')
+    print(f'Index of -1: {binary_search(array, -1)}')
 
 
 main()
