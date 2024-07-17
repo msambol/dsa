@@ -8,12 +8,12 @@
 
 ```python
 ❯ python binary_search.py
-Index of 18: 5
+Index of 12: 5
 Index of 1: 0
 Index of 9: 4
 Index of 22: 9
-Index of 30: 13
-Index of 50: -1
+Index of 50: 13
+Index of -1: -1
 ```
 
 ### Breadth-First Search
